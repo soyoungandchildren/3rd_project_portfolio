@@ -18,8 +18,10 @@
 	#nav{/* float: left; */ position:absolute; top:0; left:0; width: 200px; background-color: green; height: 100%;}
 	#content{float: right; width: 800px; height: 100%; min-height: 600px; background-color: gray;}
 	
-	#notice{border: 1px solid #FF0000; width: 740px; margin-left: 30px; margin-top: 15px; min-height: 500px; overflow: hidden; margin-bottom: 50px;}
-	#notice>table{width:90%; margin-left: 5%; margin-top: 30px;}
+	#contentTitle{font-size: 30px; padding-left: 20px;}
+	
+	#body{border: 1px solid #FF0000; width: 740px; margin-left: 30px; margin-top: 15px; min-height: 500px; overflow: hidden; margin-bottom: 50px;}
+	#body>table{width:90%; margin-left: 5%; margin-top: 30px;}
 	thead>tr>td{ text-align: center; font-size: 16px; font-family: 맑은 고딕; font-weight: bold;}
 	tbody>tr{height: 35px;}
 	tbody>tr>td{ text-align: center; font-size: 15px; font-family: 맑은 고딕;}
@@ -31,6 +33,7 @@
 	.view{width:8%;}
 	#btnWrite{margin-top: 10px; margin-right: 10px; width: 130px; height: 40px; border-radius: 7px; font-size: 20px; float: right;
 					border: none;}
+					
 	
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -59,7 +62,7 @@
 			<div id="content">
 				<span id="contentTitle">공지사항</span>
 				
-				<div id="notice">
+				<div id="body">
 					<table border="1">
 						<thead>
 							<tr style="height: 45px;">

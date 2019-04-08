@@ -20,6 +20,8 @@
 	
 	#contentTitle{font-size: 30px; padding-left: 20px;}
 	#body{border: 1px solid #FF0000; width: 740px; margin-left: 30px; margin-top: 15px; min-height: 500px; overflow: hidden; margin-bottom: 50px;}
+	#body>span{font-size: 15px;}
+	
 	
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -47,6 +49,10 @@
 			<div id="content"><span id="contentTitle">공지사항</span>
 			
 				<div id="body">
+				
+				<span>제 목</span><input type="text"/>
+				<br/>
+				<span>내 용</span><textarea></textarea>
 				
 				
 				</div>
