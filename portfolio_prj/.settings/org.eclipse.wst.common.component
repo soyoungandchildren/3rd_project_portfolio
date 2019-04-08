@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="port_prj">
+    <wb-module deploy-name="portfolio_prj">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="port_prj"/>
-        <property name="java-output-path" value="/port_prj/build/classes"/>
+        <property name="java-output-path" value="/portfolio_prj/build/classes"/>
+        <property name="context-root" value="portfolio_prj"/>
     </wb-module>
 </project-modules>
